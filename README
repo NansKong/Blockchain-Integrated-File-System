@@ -27,15 +27,15 @@ cd Blockchain-Integrated-File-System
 Ensure Truffle and Ganache CLI are installed globally:
 npm install -g truffle@5.11.5 ganache-cli@7.9.1
 
-Install Python Dependencies:
+3. Install Python Dependencies:
 pip install web3 requests ipfshttpclient
 
-Install IPFS:
+4. Install IPFS:
 Download kubo_v0.7.0_windows-amd64.zip from dist.ipfs.tech.
 Extract to C:\IPFS (or your preferred directory).
 Add to PATH:
 $env:Path += ";C:\IPFS"
 [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\IPFS", [System.EnvironmentVariableTarget]::User)
 
-Initialize IPFS:
+5. Initialize IPFS:
 ipfs init
