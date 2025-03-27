@@ -1,4 +1,4 @@
-# Blockchain-Integrated-File-System
+Blockchain-Integrated-File-System
 
 A decentralized file storage and transfer system leveraging Ethereum and IPFS. This project uses a Solidity smart contract (FileStorage.sol) to store file metadata on the blockchain, IPFS for decentralized file storage, and a Python script to bridge the two, ensuring secure and tamper-proof file tracking.
 
