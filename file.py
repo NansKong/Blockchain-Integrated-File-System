@@ -89,7 +89,6 @@ def get_file_from_blockchain(file_id):
     print(f"File ID: {file_id}, Hash: {file_hash}, Timestamp: {timestamp}, User ID: {user_id}")
     return file_hash, timestamp, user_id
 
-# Example usage
 if __name__ == "__main__":
     # Ensure Ganache and IPFS daemon are running
     file_path = "test.txt"
