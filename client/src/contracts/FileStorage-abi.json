@@ -1,0 +1,15 @@
+[
+    "constructor()",
+    "event FileAdded(string,uint256,string,uint256,address)",
+    "event UserAuthorized(address indexed)",
+    "function addFile(string,string,uint256,string)",
+    "function authorizeUser(address)",
+    "function authorizedUsers(address) view returns (bool)",
+    "function files(string,uint256) view returns (string,uint256,address,uint256,string,uint256,string)",
+    "function getFile(string,uint256) view returns (string,uint256,address,uint256,string,uint256,string)",
+    "function getLatestVersion(string) view returns (uint256)",
+    "function getVersionHistory(string) view returns (uint256[])",
+    "function latestVersion(string) view returns (uint256)",
+    "function owner() view returns (address)",
+    "function versionHistory(string,uint256) view returns (uint256)"
+  ]
